@@ -1,0 +1,229 @@
+.title{
+    margin-top: 20px;
+    text-align:center;
+    font: 'Times New roman';
+    padding: 0%;
+}
+  body{
+          bg-color: blue;
+        }
+        h3
+        { 
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow:3px 1px mistyrose; 
+        color:red; 
+        text-align: center;
+        
+        } 
+        .sub-title{
+          color: blueviolet;
+        }
+        .button {
+          background-color: orange;
+          border: none;
+          color: white;
+          padding: 20px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+
+        .button4 {border-radius: 12px;}
+        .button5 {border-radius: 50%;}
+
+  
+        #adm{ 
+            position: absolute; 
+            top: 0%; 
+           left: 93px;
+            transform: translate(-50%, -50%); 
+            width: 180px; 
+            height: 60px; 
+            color: white; 
+            text-decoration: none; 
+            text-align: center; 
+            padding-top: 30px; 
+            font-size: 20px; 
+            overflow: hidden; 
+            background: green; 
+        } 
+  
+        #adm::before { 
+            content: ""; 
+            position: absolute; 
+            width: 0; 
+            height: 0; 
+            left: 0; 
+            bottom: 0; 
+            border-style: solid; 
+            border-color: #f00; 
+            border-width: 80px 100px; 
+            z-index: -1; 
+            transform: rotate(360deg); 
+            transition: 1s; 
+            transform-origin: left; 
+        } 
+  
+        #adm:hover::before { 
+            border-color: #00f; 
+            transform: rotate(60deg); 
+        } 
+        @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+          .count {
+            display: block;
+            font-size: 24px;
+            color: black;
+            padding: 60px;
+            font-weight: 600;
+            width: 120px;
+          }
+
+          .container {
+            display: flex;
+          }
+/*p{
+  background-color: black;
+  color: white; 
+
+}*/
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+span: hover + p{
+  display: block;
+  background-color: white;
+  color: black;
+}
+#gfg{  
+        margin-top: 3%;
+        border-radius: 12px 0px;
+        padding:8px;
+        box-shadow: 0px 3px 3px 3px #888888;
+        } 
+
+#if{
+ 
+  padding: 15px;
+  box-shadow: 0px 3px 3px 3px #888888;
+
+}
+
+.pimg1, .pimg2, .pimg3{
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    /*
+      fixed = parallax
+      scroll = normal
+    */
+    background-attachment:fixed;
+  }
+  
+  .pimg1{
+    background-image:url('img1.jpg');
+    min-height:100%;
+  }
+  
+  .pimg2{
+    background-image:url('img2.jpg');
+    min-height:400px;
+  }
+  
+  .pimg3{
+    background-image:url('img3.jpg');
+    min-height:400px;
+  }
+  
+  .section{
+    text-align:center;
+    padding:50px 80px;
+  }
+  
+  .section-light{
+    background-color:#f4f4f4;
+    color:#666;
+  }
+  
+  .section-dark{
+    background-color:#282e34;
+    color:#ddd;
+  }
+  
+  .ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .ptext .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+  }
+  
+  .ptext .border.trans{
+    background-color:transparent;
+  }
+  
+  @media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+      background-attachment:scroll;
+    }
+  }
+
+    #gfg1 { 
+        animation-name: text; 
+        animation-duration: 5s; 
+        animation-iteration-count: infinite; 
+        } 
+    
+    #geek1 { 
+        font-size: 40px; 
+        text-align: center; 
+        font-weight: bold; 
+        color: #090; 
+        padding-bottom: 5px; 
+    } 
+    
+    #geek2 { 
+        font-size: 17px; 
+        font-weight: bold; 
+        text-align: center; 
+    } 
+    
+    @keyframes text { 
+        from { 
+            margin-top: 400px; 
+        } 
+        to { 
+            margin-top: 0px; 
+        } 
+    } 

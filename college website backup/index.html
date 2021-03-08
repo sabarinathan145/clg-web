@@ -1,0 +1,169 @@
+<html>
+  
+  <head>
+  <title>Velammal College of Engineering and Technology</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+  .mySlides {display:none;}
+  </style>
+  </head>
+  <script>
+      $('.count').each(function () {
+          $(this).prop('Counter',0).animate({
+              Counter: $(this).text()
+          }, {
+              duration:1500,
+              easing: 'swing',
+              step: function (now) {
+                  $(this).text(Math.ceil(now));
+              }
+          });
+      });
+         
+     function myFunction1() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more...."; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less."; 
+    moreText.style.display = "inline";
+  }
+}
+     
+     function myFunction2() {
+  var dots = document.getElementById("dot");
+  var moreText = document.getElementById("mor");
+  var btnText = document.getElementById("myBtn1");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more...."; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less."; 
+    moreText.style.display = "inline";
+  }
+}
+
+
+  </script>
+
+<body>
+   
+
+ 
+    <div id="gfg">
+      <h3 class="title" ><label><b>VELAMMAL COLLEGE OF ENGINEERING AND TECHNOLOGY (Autonomous)</b></label></h3>
+      <h5 class="sub=title"  style="text-align:center;">(An Autonomous Institution, Accredited by NBA, Accredited by NAAC 'A' Grade, Categorized as 'Band A' institution in ARHA2020)</h5>
+    </div>  
+    <div> <button class="button button4" id="adm">Admissions</button><br> </div>
+    <marquee scrollamount="8"><label><h5>AICTE sponsored STTP on Machine learning Applications to IoT during 4th January 9th January 2021. | The college has been accredited with 'A' grade by NAAC. | VCET is categorized as 'Band A' institution (rank 06-25) by Atal Ranking of Institutions on Innovation Achievement (ARIIA) 2020. VCET ranked 7th in TN and 12th in India among private Engineering Colleges for 2020-21 by Education World</h5></label></marquee>
+    <link href="index.css" rel="Stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="https://vcet.ac.in/aboutus/" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" >
+                  About us
+                </a>
+                <!-- <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul> -->
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Departments
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">CSE</a></li>
+                  <li><a class="dropdown-item" href="#">IT</a></li>
+                  <li><a class="dropdown-item" href="#">ECE</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Academics
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Student Information System</a></li>
+                  <li><a class="dropdown-item" href="#">Curriculum and syllabus</a></li>
+                  <li><a class="dropdown-item" href="#">Courses Offered</a></li>
+                </ul>
+    
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- <div class="container-lg">100% wide until large breakpoint</div> -->
+  
+
+      <div class="w3-content w3-section" style="margin-left: 0;" >
+        <img class="mySlides" src="img1.jpg" style="width:175%; height:450">
+        <img class="mySlides" src="img2.jpg" style="width:175%; height:450">
+        <img class="mySlides" src="img3.jpg" style="width:175%; height:450">
+      </div>
+
+        <div class="pimg1">
+          <div class="ptext" >
+            <span id="if">
+              Velammal College of Engineering and Technology
+            </span>
+          </div>
+        </div>
+
+        <section class="section section-dark">
+
+         <h2 class="w3-container">  <span class="w3-tag w3-padding w3-round-large w3-red w3-center" id="if">Overview </span></h2>
+         
+          <p style="text-align: justify;"><b>Velammal College of Engineering and Technology was established in 2007 to impart quality technical education to the socially and the economically challenged sections of South Tamil Nadu. <img src="smt-velammal (1).jpg"> It is a non-minority institution runs under self supporting stream. It is  approved by All India Council for Technical Education (AICTE), 
+          <span id="dots">...</span><span id="more" style="display: none"> New Delhi and is affiliated to Anna University, Chennai. This college was established by the visionary Shri. M. V. Muthuramalingam, a Professional Engineer and Chairman of the Velammal Educational Trust, Chennai.  </span></p><p onclick="myFunction1()" id="myBtn"><b>Read more.....</p>
+            
+        </section>
+
+        <div class="pimg2">
+          <div class="ptext">
+          </div>
+        </div>
+
+        <section class="section section-dark">
+          <h2 class="w3-container"><span class="w3-tag w3-padding w3-round-large w3-red w3-center" id="if">Vision </span></h2>
+          <p>-><b>
+            To emerge and sustain as a center of excellence for technical <span id="dot">...</span> <span id="mor" style="display:none;">and managerial education upholding social values.</span></p><p onclick="myFunction2()" id="myBtn1"><b>Read more.....</p>
+        </section>
+        <div class="pimg3">
+          <div class="ptext">
+          </div>
+        </div>
+
+        <section class="section section-dark">
+          <h2 class="w3-container"><span class="w3-tag w3-padding w3-round-large w3-red w3-center" id="if">Mission</span></h2>
+          <p><br><b>
+            Our aspirants are: 
+            Imparted with comprehensive,innovative and value based education.
+            Exposed to technical,managerial and soft skill resources with emphasis on research and professionalism.
+            Inculcated with the need for a disciplined,happy,married and peaceful life.
+          </p>
+        </section>
+  
+</body>
+
+</html>
